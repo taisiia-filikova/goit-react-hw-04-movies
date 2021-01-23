@@ -1,0 +1,53 @@
+.main {
+  padding: 30px 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: var(--darkVioletColor);
+  text-shadow: var(--shadow-dark);
+}
+
+.moviesList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: -15px;
+  padding-bottom: 40px;
+}
+
+.moviesItem {
+  width: 300px;
+  margin: 15px;
+}
+
+.poster {
+  height: 420px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  object-fit: cover;
+  background-color: #fff;
+  transition: var(--transition);
+  box-shadow: var(--shadow-dark);
+}
+
+.poster:hover {
+  transform: scale(1.03);
+}
+
+.movieTitle {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--darkVioletColor);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
