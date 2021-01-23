@@ -1,0 +1,32 @@
+.cast {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  min-height: 450px;
+  margin: -15px;
+}
+
+.item {
+  width: 200px;
+  margin: 15px;
+}
+
+.photo {
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.name {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: var(--darkVioletColor);
+}
+
+.character {
+  font-size: 15px;
+  color: var(--violetColor);
+}

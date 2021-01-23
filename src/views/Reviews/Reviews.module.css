@@ -1,0 +1,20 @@
+.item {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.author {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: var(--darkVioletColor);
+}
+
+.content {
+  text-align: justify;
+  letter-spacing: 0.1em;
+  color: var(--violetColor);
+}
+
+.content::first-letter {
+  margin-left: 40px;
+}
