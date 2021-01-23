@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../img/space.jpg');
+  background-color: #3f51b5;
+  min-height: 80px;
+  padding: 12px 24px;
+  color: var(--primaryWhiteColor);
+  box-shadow: var(--shadow-dark);
+}
+
+.link {
+  display: inline-block;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 25px;
+  color: var(--primaryWhiteColor);
+  transition: var(--transition);
+}
+
+.link:hover {
+  transform: scale(1.08);
+}
+
+.activeLink {
+  display: inline-block;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 25px;
+  color: var(--accentColor);
+}
