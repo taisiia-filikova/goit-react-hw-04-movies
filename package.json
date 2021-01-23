@@ -20,7 +20,6 @@
     "react-toastify": "^6.2.0",
     "shortid": "^2.2.16",
     "web-vitals": "^0.2.4",
-    "react-simple-show-more": "^1.0.2",
     "slugify": "^1.4.6",
     "vanilla-back-to-top": "^7.2.1"
   },
