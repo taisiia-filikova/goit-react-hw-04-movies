@@ -8,9 +8,9 @@ function Load() {
     <div className={s.overlay}>
       <Loader
         type="TailSpin"
-        color="#3f51b5"
-        height={80}
-        width={80}
+        color="#c392c3"
+        height={60}
+        width={60}
         timeout={0}
       />
     </div>
