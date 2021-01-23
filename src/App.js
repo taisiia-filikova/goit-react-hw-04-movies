@@ -40,7 +40,6 @@ function App() {
   return (
     <Container>
       <AppBar />
-
       <Suspense fallback={<Loader />}>
         <Switch>
           <Route path="/" exact>
