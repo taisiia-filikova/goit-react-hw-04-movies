@@ -13,8 +13,9 @@
 .link {
   display: inline-block;
   padding: 15px;
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.1em;
   color: var(--primaryWhiteColor);
   transition: var(--transition);
 }
@@ -25,8 +26,5 @@
 
 .activeLink {
   display: inline-block;
-  padding: 15px;
-  font-weight: 500;
-  font-size: 25px;
   color: var(--accentColor);
 }
